@@ -1,0 +1,1360 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Contactic\n"
+"POT-Creation-Date: 2019-04-11 14:20+0200\n"
+"PO-Revision-Date: 2019-04-09 12:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: Contactic Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: contact-form-7-db.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: CTC_ExportBase.php:339
+msgid "You do not have sufficient permissions to access this data."
+msgstr ""
+
+#: CTC_ExportToExcel.php:51 view/CTC_ViewOptions.php:156
+#: view/CTC_ViewWebhooks.php:284
+msgid "PHP Upgrade Needed"
+msgstr ""
+
+#: CTC_ExportToExcel.php:52
+msgid "CFDB Excel file export requires PHP 5.4 or later on your server."
+msgstr ""
+
+#: CTC_ExportToExcel.php:54 contact-form-7-db.php:26
+#: view/CTC_ViewOptions.php:159 view/CTC_ViewWebhooks.php:287
+msgid "Your server's PHP version: "
+msgstr ""
+
+#: CTC_ExportToExcel.php:58 view/CTC_ViewOptions.php:163
+#: view/CTC_ViewWebhooks.php:291
+msgid "See WordPress Recommended PHP Version"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:31 CTC_OptionsManager.php:298
+#: ContacticPlugin.php:138 ContacticPlugin.php:159 ContacticPlugin.php:706
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:73
+msgid ""
+"Setting up a Google Spreadsheet to pull in data from WordPress requires "
+"these manual steps:"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:88
+msgid "Log into Google Docs and create a new Google Spreadsheet"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:102
+msgid "Go to <strong>Tools</strong> menu -> <strong>Script Editor...</strong>"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:116
+msgid "Choose <strong>Spreadsheet</strong>"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:131
+msgid "Delete any text that is already there"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:132
+msgid "<strong>Copy</strong> the text from "
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:133
+msgid "THIS SCRIPT FILE"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:134
+msgid "and <strong>paste</strong> it into the Google script editor"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:150
+msgid "<strong>Save</strong> the script"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:166
+msgid "Click on a cell A1 in the Spreadsheet (or any cell)"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:167
+msgid "Enter in the cell the formula:"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:176
+msgid "Replace the fourth argument with your WordPress password"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:182
+msgid ""
+"Customize the output by creating a Google Spreadsheet Function call with "
+"additional options"
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:189
+msgid ""
+"WARNING: since you are putting your login information into the Google "
+"Spreadsheet, be sure not to share\n"
+"        the spreadsheet with others."
+msgstr ""
+
+#: CTC_ExportToGoogleLiveData.php:195
+msgid "How to Set up Google Spreadsheet to pull data from WordPress"
+msgstr ""
+
+#: CTC_ExportToHtmlTable.php:142
+msgid "All"
+msgstr ""
+
+#: CTC_ExportToHtmlTable.php:235 ContacticPlugin.php:1366
+#: ContacticPlugin.php:2011 view/CTC_ViewWhatsInDB.php:448
+msgid "Delete"
+msgstr ""
+
+#: CTC_ExportToOverview.php:64 view/CTC_ViewOverview.php:472
+msgid "Date"
+msgstr ""
+
+#: CTC_ExportToOverview.php:65 view/CTC_ViewOverview.php:473
+msgid "Source"
+msgstr ""
+
+#: CTC_ExportToOverview.php:66 view/CTC_ViewOverview.php:474
+msgid "Page"
+msgstr ""
+
+#: CTC_ExportToOverview.php:67 view/CTC_ViewOverview.php:475
+msgid "Email"
+msgstr ""
+
+#: CTC_ExportToOverview.php:68 view/CTC_ViewOverview.php:198
+#: view/CTC_ViewOverview.php:476
+msgid "Usefulness"
+msgstr ""
+
+#: CTC_ExportToOverview.php:69 view/CTC_ViewOverview.php:477
+msgid "Status"
+msgstr ""
+
+#: CTC_ExportToOverview.php:70 view/CTC_ViewOverview.php:478
+msgid "Details"
+msgstr ""
+
+#: CTC_ExportToOverview.php:162 ContacticPlugin.php:1995
+msgid "Usefull"
+msgstr ""
+
+#: CTC_ExportToOverview.php:163 ContacticPlugin.php:1996
+msgid "Useless"
+msgstr ""
+
+#: CTC_ExportToOverview.php:164 ContacticPlugin.php:1997
+msgid "Spam"
+msgstr ""
+
+#: CTC_IntegrationFSCF.php:52
+msgid "Database"
+msgstr ""
+
+#: CTC_IntegrationFSCF.php:54
+msgid "Database Options"
+msgstr ""
+
+#: CTC_IntegrationFSCF.php:56
+msgid "Build Shortcode"
+msgstr ""
+
+#: CTC_IntegrationFSCF.php:58
+msgid "Reference"
+msgstr ""
+
+#: CTC_OptionsManager.php:368 ContacticPlugin.php:229
+#: view/CTC_ViewShortCodeBuilder.php:631 view/CTC_ViewShortCodeBuilder.php:728
+#: view/CTC_ViewShortCodeBuilder.php:739 view/CTC_ViewShortCodeBuilder.php:798
+#: view/CTC_ViewShortCodeBuilder.php:837
+msgid "true"
+msgstr ""
+
+#: CTC_OptionsManager.php:369 ContacticPlugin.php:231
+#: view/CTC_ViewShortCodeBuilder.php:727 view/CTC_ViewShortCodeBuilder.php:738
+#: view/CTC_ViewShortCodeBuilder.php:799 view/CTC_ViewShortCodeBuilder.php:838
+msgid "false"
+msgstr ""
+
+#: CTC_ShortcodeExportUrl.php:59 view/CTC_ViewImportCsv.php:134
+#: view/CTC_ViewOptions.php:73 view/CTC_ViewShortCodeBuilder.php:97
+#: view/CTC_ViewWhatsInDB.php:318
+msgid "Export"
+msgstr ""
+
+#: ContacticPlugin.php:57
+msgid "&#x21B3; Generate [submit_time] tag for Contact Form 7 email"
+msgstr ""
+
+#: ContacticPlugin.php:58
+msgid "&#x21B3; Include source in Contact Form 7 email"
+msgstr ""
+
+#: ContacticPlugin.php:75
+msgid "Allow only Administrators to see CFDB administration screens"
+msgstr ""
+
+#: ContacticPlugin.php:76
+msgid "Can See Submission when using shortcodes"
+msgstr ""
+
+#: ContacticPlugin.php:78
+msgid "Can See Submission data"
+msgstr ""
+
+#: ContacticPlugin.php:80
+msgid "Can Edit/Delete Submission data"
+msgstr ""
+
+#: ContacticPlugin.php:82
+msgid "Allow Any Function in Short Codes"
+msgstr ""
+
+#: ContacticPlugin.php:83 ContacticPlugin.php:85
+msgid "(Creates a security hole)"
+msgstr ""
+
+#: ContacticPlugin.php:84
+msgid "Allow RSS URLs"
+msgstr ""
+
+#: ContacticPlugin.php:88
+msgid "Track user origin (source & page, if false : admin-ajax.php call on front pages is disabled)"
+msgstr ""
+
+#: ContacticPlugin.php:88
+msgid ""
+"Timezone to capture Submit Time. Blank will use WordPress Timezone setting. "
+"<a target=\"_blank\" href=\"http://www.php.net/manual/en/timezones.php"
+"\">Options</a>"
+msgstr ""
+
+#: ContacticPlugin.php:89
+msgid "Do not save <u>fields</u> in DB named (comma-separated list, no spaces)"
+msgstr ""
+
+#: ContacticPlugin.php:90
+msgid "Do not save <u>forms</u> in DB named (comma-separated list, no spaces)"
+msgstr ""
+
+#: ContacticPlugin.php:91
+msgid "Save Cookie Data with Form Submissions"
+msgstr ""
+
+#: ContacticPlugin.php:92
+msgid ""
+"Save only cookies in DB named (comma-separated list, no spaces, and above "
+"option must be set to true)"
+msgstr ""
+
+#: ContacticPlugin.php:95
+msgid "Use Custom Date-Time Display Format (below)"
+msgstr ""
+
+#: ContacticPlugin.php:96
+msgid "Date-Time Display Format"
+msgstr ""
+
+#: ContacticPlugin.php:97
+msgid "Export URLs instead of file names for uploaded files"
+msgstr ""
+
+#: ContacticPlugin.php:100
+msgid "Maximum number of rows to retrieve from the DB for the Admin display"
+msgstr ""
+
+#: ContacticPlugin.php:101
+msgid "#Rows (of maximum above) visible in the Admin datatable"
+msgstr ""
+
+#: ContacticPlugin.php:102
+msgid ""
+"Merge these input fields names to get the e-mail on the <a href=\"admin.php?"
+"page=ContacticPlugin\">overview page</a>"
+msgstr ""
+
+#: ContacticPlugin.php:103
+msgid "Use fixed width in Admin datatable"
+msgstr ""
+
+#: ContacticPlugin.php:105
+msgid "Show line breaks in submitted data table"
+msgstr ""
+
+#: ContacticPlugin.php:106
+msgid "Show the query used to display results"
+msgstr ""
+
+#: ContacticPlugin.php:109
+msgid "Error output file or email address"
+msgstr ""
+
+#: ContacticPlugin.php:110
+msgid "Drop this plugin's Database table on uninstall"
+msgstr ""
+
+#: ContacticPlugin.php:118 view/CTC_ViewWebhooks.php:152
+msgid "Pipedrive API Key"
+msgstr ""
+
+#: ContacticPlugin.php:119
+msgid "Pipedrive Configuration"
+msgstr ""
+
+#: ContacticPlugin.php:120 view/CTC_ViewWebhooks.php:129
+msgid "Slack Webhook Url"
+msgstr ""
+
+#: ContacticPlugin.php:121
+msgid "Webhook Configuration"
+msgstr ""
+
+#: ContacticPlugin.php:128 view/CTC_ViewWebhooks.php:208
+msgid "Slack Bot Name"
+msgstr ""
+
+#: ContacticPlugin.php:129 view/CTC_ViewWebhooks.php:216
+msgid "Message"
+msgstr ""
+
+#: ContacticPlugin.php:130 view/CTC_ViewWebhooks.php:250
+msgid "Slack Channel"
+msgstr ""
+
+#: ContacticPlugin.php:131
+msgid "Icon Url"
+msgstr ""
+
+#: ContacticPlugin.php:132 view/CTC_ViewWebhooks.php:223
+msgid "Trigger message on form"
+msgstr ""
+
+#: ContacticPlugin.php:234 view/CTC_ViewShortCodeBuilder.php:824
+msgid "Administrator"
+msgstr ""
+
+#: ContacticPlugin.php:236 view/CTC_ViewShortCodeBuilder.php:825
+msgid "Editor"
+msgstr ""
+
+#: ContacticPlugin.php:238 view/CTC_ViewShortCodeBuilder.php:826
+msgid "Author"
+msgstr ""
+
+#: ContacticPlugin.php:240 view/CTC_ViewShortCodeBuilder.php:827
+msgid "Contributor"
+msgstr ""
+
+#: ContacticPlugin.php:242 view/CTC_ViewShortCodeBuilder.php:828
+msgid "Subscriber"
+msgstr ""
+
+#: ContacticPlugin.php:244 view/CTC_ViewShortCodeBuilder.php:829
+msgid "Anyone"
+msgstr ""
+
+#: ContacticPlugin.php:712
+msgid "Missing form parameters"
+msgstr ""
+
+#: ContacticPlugin.php:716
+msgid "No such file."
+msgstr ""
+
+#: ContacticPlugin.php:786
+msgid "Invalid: "
+msgstr ""
+
+#: ContacticPlugin.php:789
+msgid "Valid: "
+msgstr ""
+
+#: ContacticPlugin.php:807
+msgid "Checking for conflicting entries. This may take a few minutes."
+msgstr ""
+
+#: ContacticPlugin.php:812
+msgid "Phase 1 of 3..."
+msgstr ""
+
+#: ContacticPlugin.php:814 ContacticPlugin.php:820 ContacticPlugin.php:826
+msgid "Database entries fixed: "
+msgstr ""
+
+#: ContacticPlugin.php:818
+msgid "Phase 2 of 3..."
+msgstr ""
+
+#: ContacticPlugin.php:824
+msgid "Phase 3 of 3..."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: ContacticPlugin.php:1182
+msgid "Contactic"
+msgstr ""
+
+#: ContacticPlugin.php:1191 view/CTC_ViewOverview.php:147
+msgid "Overview"
+msgstr ""
+
+#: ContacticPlugin.php:1199 view/CTC_ViewOverview.php:157
+msgid "Contacts"
+msgstr ""
+
+#: ContacticPlugin.php:1251
+msgid "Shortcodes"
+msgstr ""
+
+#: ContacticPlugin.php:1259 view/CTC_ViewImportCsv.php:86
+msgid "Import"
+msgstr ""
+
+#: ContacticPlugin.php:1276
+msgid "Options"
+msgstr ""
+
+#: ContacticPlugin.php:1283 view/CTC_ViewWebhooks.php:299
+msgid "Webhooks"
+msgstr ""
+
+#: ContacticPlugin.php:1991
+msgid "Is it usefull ?"
+msgstr ""
+
+#: ContacticPlugin.php:2002
+msgid "Did you handle the message ?"
+msgstr ""
+
+#: contact-form-7-db.php:24
+msgid ""
+"Error: plugin \"Contactic\" requires a newer version of PHP to be running."
+msgstr ""
+
+#: contact-form-7-db.php:25
+msgid "Minimal version of PHP required: "
+msgstr ""
+
+#: contact-form-7-db.php:76
+msgid "Support Forum"
+msgstr ""
+
+#: contact-form-7-db.php:77
+msgid "Rate"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:47
+msgid "Import CSV File into Form"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:52
+msgid "File"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:56
+msgid "New Form"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:60
+msgid "Existing Form"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:76
+msgid "Delimiter Character"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:78
+msgid "Enclosure Character"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:80
+msgid "Escape Character"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:99
+msgid "Rename Form"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:111
+msgid "Rename"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:114
+msgid "Backup Form to CSV File"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:116
+msgid ""
+"Backup a form into a CSV file that can be re-imported without loss of data."
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:117
+msgid "Limitation: this will not export file uploads."
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:118
+msgid ""
+"Limitation: extremely large numbers of records in your form may cause the "
+"export operation on your server to run out of memory, thereby not giving you "
+"all the rows."
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:136
+msgid "Data Cleanup"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:137
+msgid "Clean up data that can cause incorrect behavior"
+msgstr ""
+
+#: view/CTC_ViewImportCsv.php:139
+msgid "Clean up data"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:64
+msgid "Integrations"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:67 view/CTC_ViewShortCodeBuilder.php:816
+msgid "Security"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:70
+msgid "Saving"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:76
+msgid "Admin View"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:79 view/CTC_ViewOptions.php:206
+#: view/CTC_ViewWebhooks.php:325
+msgid "System"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:84
+msgid "Capture form submissions from these plugins"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:102
+msgid "Notes on security settings"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:157 view/CTC_ViewWebhooks.php:285
+msgid "This page requires PHP 5.3 or later on your server."
+msgstr ""
+
+#: view/CTC_ViewOptions.php:188 view/CTC_ViewWebhooks.php:160
+msgid "Save changes"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:214 view/CTC_ViewWebhooks.php:333
+msgid "PHP Version"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:219 view/CTC_ViewWebhooks.php:338
+msgid ""
+"(WARNING: This plugin may not work properly with versions earlier than PHP "
+"5.2)"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:226 view/CTC_ViewWebhooks.php:345
+msgid "MySQL Version"
+msgstr ""
+
+#: view/CTC_ViewOptions.php:231 view/CTC_ViewWebhooks.php:350
+msgid ""
+"(WARNING: This plugin may not work properly with versions earlier than MySQL "
+"5.0)"
+msgstr ""
+
+#: view/CTC_ViewOverview.php:229
+msgid "Todo"
+msgstr ""
+
+#: view/CTC_ViewOverview.php:282
+msgid "Contacts Export"
+msgstr ""
+
+#: view/CTC_ViewOverview.php:289
+msgid "Export all data to the format you want"
+msgstr ""
+
+#: view/CTC_ViewOverview.php:300 view/CTC_ViewWhatsInDB.php:390
+msgid "From: "
+msgstr ""
+
+#: view/CTC_ViewOverview.php:301 view/CTC_ViewWhatsInDB.php:391
+msgid "To: "
+msgstr ""
+
+#: view/CTC_ViewOverview.php:340
+msgid "Contact"
+msgstr ""
+
+#: view/CTC_ViewOverview.php:379 view/CTC_ViewWhatsInDB.php:709
+msgid "Are you sure you want to delete this contact ?"
+msgstr ""
+
+#: view/CTC_ViewOverview.php:389 view/CTC_ViewOverview.php:431
+#: view/CTC_ViewOverview.php:465 view/CTC_ViewWhatsInDB.php:719
+#: view/CTC_ViewWhatsInDB.php:768 view/CTC_ViewWhatsInDB.php:800
+msgid "Network error, please retry."
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:80
+msgid "Shortcode and Export Builder"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:83
+msgid "Reset Form"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:94 view/CTC_ViewShortCodeBuilder.php:172
+msgid "Shortcode"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:112
+msgid "Form"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:115
+msgid "Columns"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:118
+msgid "Rows"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:121 view/CTC_ViewShortCodeBuilder.php:467
+msgid "Transform"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:124
+msgid "Before/After"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:127
+msgid "Shortcode Specific"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:130
+msgid "Security/Performance"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:175
+msgid "* Select a shortcode *"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:185 view/CTC_ViewShortCodeBuilder.php:878
+msgid "Documentation"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:191
+msgid "Generated Shortcode:"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:206
+msgid "Export File"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:210 view/CTC_ViewShortCodeBuilder.php:765
+#: view/CTC_ViewWhatsInDB.php:291
+msgid "Excel .xlsx"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:213 view/CTC_ViewShortCodeBuilder.php:768
+#: view/CTC_ViewWhatsInDB.php:307
+msgid "OpenDocument .ods"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:216 view/CTC_ViewShortCodeBuilder.php:771
+#: view/CTC_ViewWhatsInDB.php:297
+msgid "Excel CSV (UTF8-BOM)"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:219 view/CTC_ViewShortCodeBuilder.php:774
+#: view/CTC_ViewWhatsInDB.php:300
+msgid "Excel TSV (UTF16LE-BOM)"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:222 view/CTC_ViewShortCodeBuilder.php:777
+#: view/CTC_ViewWhatsInDB.php:283
+msgid "Plain CSV (UTF-8)"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:225 view/CTC_ViewShortCodeBuilder.php:780
+#: view/CTC_ViewWhatsInDB.php:303
+msgid "Excel CSV for Japanese (Shift-JIS)"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:228 view/CTC_ViewShortCodeBuilder.php:783
+#: view/CTC_ViewWhatsInDB.php:294
+msgid "Excel Internet Query"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:231 view/CTC_ViewWhatsInDB.php:287
+msgid "Google Spreadsheet Live Data"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:234
+msgid "RSS"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:237 view/CTC_ViewWhatsInDB.php:314
+msgid "JSON"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:241 view/CTC_ViewShortCodeBuilder.php:787
+#: view/CTC_ViewWhatsInDB.php:322
+msgid "CSV Delimiter"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:245
+msgid "Item Title"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:251
+msgid ""
+"Provide a WP login for the Google Spreadsheet to use to connect to your WP "
+"site"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:254
+msgid ""
+"Optional: provide a WP login for the link to work without being already "
+"logged in"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:257
+msgid "WP User"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:259
+msgid "WP Password"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:262
+msgid "Hide Credentials"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:266
+msgid "Generated Export Link:"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:268
+msgid "Enter this function into a cell in your Google Spreadsheet:"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:271
+msgid "Generated Google Spreadsheet Function:"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:272
+msgid ""
+"Replace <strong>&lt;password&gt;</strong> with your <em>WordPress</em> "
+"password"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:274
+msgid "Requires code installed in your Google Spreadsheet script editor."
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:276
+msgid "Get code"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:278
+msgid "See instructions."
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:309
+msgid "* All Forms *"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:319
+msgid "Which fields/columns do you want to display?"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:322
+msgid "show"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:328 view/CTC_ViewShortCodeBuilder.php:338
+#: view/CTC_ViewShortCodeBuilder.php:453 view/CTC_ViewShortCodeBuilder.php:550
+#: view/CTC_ViewShortCodeBuilder.php:645
+msgid "field1,field2,field3"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:332
+msgid "hide"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:343
+msgid "Table Headers"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:347
+msgid "Include Header Row"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:352
+msgid "headers"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:356
+msgid "display as"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:358
+msgid "display value"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:362
+msgid "field1=Display Name 1,field2=Display Name 2"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:373
+msgid "Which rows/submissions do you want to display?"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:376
+msgid "search"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:380 view/CTC_ViewShortCodeBuilder.php:489
+msgid "search text"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:384
+msgid "filter"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:407 view/CTC_ViewShortCodeBuilder.php:516
+msgid "value"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:411 view/CTC_ViewShortCodeBuilder.php:520
+msgid "Validate submit_time"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:413 view/CTC_ViewShortCodeBuilder.php:522
+msgid "Formats"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:417 view/CTC_ViewShortCodeBuilder.php:526
+msgid "filter expression"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:424
+msgid "limit"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:428 view/CTC_ViewShortCodeBuilder.php:534
+msgid "Num Rows"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:430 view/CTC_ViewShortCodeBuilder.php:433
+#: view/CTC_ViewShortCodeBuilder.php:441 view/CTC_ViewShortCodeBuilder.php:536
+#: view/CTC_ViewShortCodeBuilder.php:539
+msgid "number"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:431 view/CTC_ViewShortCodeBuilder.php:537
+msgid "Start Row (0)"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:437
+msgid "random"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:445
+msgid "orderby"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:451 view/CTC_ViewShortCodeBuilder.php:548
+#: view/CTC_ViewShortCodeBuilder.php:643
+msgid "field"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:456 view/CTC_ViewShortCodeBuilder.php:553
+msgid "ASC"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:457 view/CTC_ViewShortCodeBuilder.php:554
+msgid "DESC"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:470
+msgid "trans"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:476
+msgid "PHP function or class"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:480
+msgid "transform expression"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:484
+msgid "tsearch"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:493
+msgid "tfilter"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:530
+msgid "tlimit"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:543
+msgid "torderby"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:566
+msgid "Before"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:572
+msgid "Optional HTML/Javascript before the short code output"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:576
+msgid "After"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:581
+msgid "Optional HTML/Javascript after the short code output"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:591
+msgid "HTML Table Formatting"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:594
+msgid "id"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:599
+msgid "HTML id"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:603
+msgid "class"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:608
+msgid "HTML class"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:612
+msgid "style"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:617
+msgid "CSS style"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:622
+msgid "[cfdb-datatable] Options"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:625
+msgid "edit"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:632
+msgid "cells"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:637
+msgid "editcolumns"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:649
+msgid "dt_options"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:653
+msgid "datatable options (JSON)"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:658
+msgid "[cfdb-json] Options"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:661
+msgid "var"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:665
+msgid "JS var name"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:669
+msgid "format"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:674
+msgid "map"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:675
+msgid "array"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:676
+msgid "arraynoheader"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:682
+msgid "[cfdb-value] Options"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:685
+msgid "function"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:690
+msgid "min"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:691
+msgid "max"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:692
+msgid "sum"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:693
+msgid "mean"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:694
+msgid "percent"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:699
+msgid "delimiter"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:707
+msgid "[cfdb-html] Options"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:710
+msgid "filelinks"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:715
+msgid "url"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:716
+msgid "name"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:717
+msgid "link"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:718
+msgid "img"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:721
+msgid "stripbr"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:732
+msgid "wpautop"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:744
+msgid "Template"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:751
+msgid "Per-entry HTML using ${field name} variables"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:756
+msgid "[cfdb-export-link] Options"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:759
+msgid "enc"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:793
+msgid "urlonly"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:804
+msgid "linktext"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:819
+msgid "role"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:832
+msgid "permissionmsg"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:843
+msgid "Global Security Settings"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:848
+msgid "Performance"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:851
+msgid "unbuffered"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1028
+#: view/CTC_ViewShortCodeBuilder.php:1041
+msgid "Error: \""
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1030
+#: view/CTC_ViewShortCodeBuilder.php:1043
+msgid "\" should not contain double-quotes (\")"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1112
+msgid "Error: no form is chosen"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1159
+msgid ""
+"Warning: \"search\" field ignored because FIELD is used (use one but not "
+"both)"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1180
+msgid ""
+"Error: \"FIELD\": if you provide a value for \"Start Row\" then you must "
+"also provide a value for \"Num Rows\""
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1185
+msgid "Error: \"FIELD\": \"Num Rows\" must be a positive integer"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1193
+msgid "Error: \"FIELD\": \"Start Row\" must be a positive integer"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1288
+msgid "Error: [cfdb-html] has empty Template. It will not output anything. "
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1289
+msgid "(Shortcode Specific option)"
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1363
+msgid "Error: \"edit=true\" will not work properly when setting \"headers\" "
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1563
+msgid ""
+"Warning: the function includes your WP login information. Avoid sharing it."
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1570
+msgid ""
+"Error: WP User and Password are required for the Google Spreadsheet to pull "
+"data from your WordPress site."
+msgstr ""
+
+#: view/CTC_ViewShortCodeBuilder.php:1573
+msgid ""
+"Because the generated URL would be too long, you must use this alternative "
+"function and add its script to your Google Spreadsheet"
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:97
+msgid "Configuration"
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:105
+msgid "Slack"
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:115
+msgid ""
+"Contactic allows you to configure webhooks, making it possible to "
+"automatically push submitted forms to your prefered third-party online "
+"service."
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:124
+msgid ""
+"Add your <a href=\"https://www.slack.com\" target=\"_blank\">Slack</a> "
+"Webhook Url to get notified by a message in your preferred channel, when "
+"someone submits a form. Once your webhook url save you will be able to "
+"create slack bots."
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:131
+msgid "Your slack webhook Url"
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:133
+msgid "Create a new slack bot"
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:146
+msgid ""
+"Add your <a href=\"https://www.pipedrive.com\" target=\"_blank\">Pipedrive</"
+"a> API Key to start pushing your form submission as Contacts and Deals.\n"
+"                                    Your API can be found in Pipedrive, "
+"under Settings > Profile > API. Once saved you will be able to configure a "
+"new webhook."
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:199
+msgid ""
+"Configure your <a href=\"https://www.slack.com\" target=\"_blank\">Slack</a> "
+"Webhook and customize the message you want to receive in your channel."
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:228
+msgid "Any form"
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:244
+msgid "More options"
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:253
+msgid "Overrides the default webhook channel. Can be #general or @johndoe"
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:265
+msgid "Save"
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:267
+msgid "Do you really want to delete webhook?"
+msgstr ""
+
+#: view/CTC_ViewWebhooks.php:267
+msgid "Delete this bot"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:67
+msgid "No form submissions in the database"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:189
+msgid "* Select a form *"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:250
+msgid ""
+"You will now be navigated to the builder page where it will generate a "
+"function to place in your Google Spreadsheet"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:280
+msgid "* Choose export format *"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:311
+msgid "HTML"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:326
+msgid "Advanced Export"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:339
+msgid "Delete All This Form's Records"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:340
+msgid "Are you sure you want to delete all the data for this form?"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:445
+msgid "Mass Action"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:451
+msgid "Are you sure you want to delete the selected data for this form?"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:465
+msgid "Set Status : Todo"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:471
+msgid "Set Status : Done"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:481
+msgid "Set Usefulness : Usefull"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:487
+msgid "Set Usefulness : Useless"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:493
+msgid "Set Usefulness : Spam"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:638
+msgid "Query:"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:647
+msgid "Add Column"
+msgstr ""
+
+#: view/CTC_ViewWhatsInDB.php:648
+msgid "Delete Column"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://contactic.io/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Save form submissions to the database from severals contact form plugins and "
+"themes. Includes exports, shortcodes, tracking and stats. | <a href=\"admin."
+"php?page=ContacticPluginSubmissions\">Data</a> | <a href=\"admin.php?"
+"page=ContacticPluginShortCodeBuilder\">Shortcodes</a> | <a href=\"admin.php?"
+"page=ContacticPluginSettings\">Settings</a> | <a href=\"https://contactic.io/"
+"docs/\">Docs</a>"
+msgstr ""
